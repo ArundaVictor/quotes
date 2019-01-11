@@ -7,7 +7,11 @@ import {Quotes} from '../quotes'
 })
 export class QuotesComponent implements OnInit {
   title = 'Quotes';
-  quotes = "Everyday is a brand new day. Everyday is beautiful"
+  quotes =[
+    new Quotes (1, "Everyday is a brand new day", "Everyday is beautiful"),
+    new Quotes (2, "Everyday is a brand new day", "Everyday is beautiful"),
+    new Quotes (3, "Everyday is a brand new day", "Everyday is beautiful"),
+  ]
   constructor() { }
 
   ngOnInit() {

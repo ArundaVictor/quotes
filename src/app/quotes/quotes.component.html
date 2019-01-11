@@ -2,8 +2,14 @@
   <h1>
    {{ title }}
   </h1>
-  <p>
-    {{quotes}}
-  </p>
+  <ul>
+    <div *ngFor='let quotes of quotes'>
+    <li>{{quotes.name}}</li>
+     <app-quotes-details [quotes]='quotes'></app-quotes-details>
+     </div>
+  </ul>
+
+
+
 
 </div>
