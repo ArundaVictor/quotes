@@ -1,21 +1,6 @@
-<!-- <div style="text-align:left">
-  <h1>
-   {{ title }}
-  </h1>
-  <ul>
-    <div *ngFor='let quotes of quotes'>
-    <li>{{quotes.name}}</li>
-     <app-quotes-details [quotes]='quotes'></app-quotes-details>
-     </div>
-  </ul>
-
-
-
-
-</div> -->
-<h2>My Quotes</h2>
-<ul class="article">
-  <li *ngFor="let quote of quotes">
-    <span class="article">{{quote.id}}</span> {{quote.quote}}
-  </li>
-</ul>
+<h1>My Quotes</h1>
+<div class="container">
+    <div class="row">
+        <app-quote-form></app-quote-form>
+    </div>
+</div>
