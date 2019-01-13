@@ -6,12 +6,12 @@ import {Quotes} from '../quotes'
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
-  title = 'Quotes';
-  quotes =[
-    new Quotes (1, "Everyday is a brand new day", "Everyday is beautiful"),
-    new Quotes (2, "Everyday is a brand new day", "Everyday is beautiful"),
-    new Quotes (3, "Everyday is a brand new day", "Everyday is beautiful"),
-  ]
+  // title = 'Quotes';
+  // quotes =[
+  //   new Quotes (1, "Everyday is a brand new day", "Everyday is beautiful"),
+  //   new Quotes (2, "Everyday is a brand new day", "Everyday is beautiful"),
+  //   new Quotes (3, "Everyday is a brand new day", "Everyday is beautiful"),
+  // ]
   constructor() { }
 
   ngOnInit() {
