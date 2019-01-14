@@ -23,11 +23,6 @@ This is a website where users can post their quotes and also view other people's
 There are no known bugs as at now but in case of any you may find please contact me.
 
 ## Technologies Used
-* Atom - Text editor
-* Bootstrap - content library
-* Git - version control environment
-* JQuery - content library
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
 ## Development server
@@ -53,3 +48,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Atom - Text editor
+* Bootstrap - content library
+* Git - version control environment
+* JQuery - content library
+
+## Support and contact details
+In case of any questions or feedback or clarifications, you can reach me at:
+victoroyugi31@gmail.com
+0705427223
+### License
+*Licenced under the [MIT Licence](Licence).*
+Copyright (c) 2019 **Arunda Victor oyugi**
