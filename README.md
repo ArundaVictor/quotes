@@ -58,5 +58,5 @@ In case of any questions or feedback or clarifications, you can reach me at:
 victoroyugi31@gmail.com
 0705427223
 ### License
-*Licenced under the [MIT Licence](Licence).*
+*Licenced under the [MIT Licence](LICENCE).*
 Copyright (c) 2019 **Arunda Victor oyugi**
