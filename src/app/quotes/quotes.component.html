@@ -47,8 +47,15 @@
     <h1>Quotes</h1>
     <p>Welcome to the quote website where you can post a quote and also vote on other people's quotes!</p>
     <ul>
-    <li *ngFor='let quote of quotes'>{{quote.name}}</li>
-     <app-quotes-details [quotes]='quote'></app-quotes-details>
+
+    <div *ngFor='let quote of quotes;let i = index'>
+
+
+      <li>{{quote.name}}</li>
+      <button class="btn btn-primary btn-sm" (click)='toogleDetails(i)'>Toogle Details</button>
+      <br>
+     <app-quotes-details *ngIf="quote.showDescription" [quotes]='quote'></app-quotes-details>
+     </div>
   </ul>
     <app-quote-form></app-quote-form>
   </div>
