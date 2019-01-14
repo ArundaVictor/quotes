@@ -8,7 +8,7 @@
 
                 <label for="name">Author</label>
                 <input type="text" required class="form-control" id="name" [(ngModel)]="newQuotes.name" name="name"  #name="ngModel" required>
-            
+
                 <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
                     <p> Author name is Required</p>
 
@@ -20,7 +20,7 @@
                 <label for="description">Quote</label>
                 <textarea class="form-control" id="description" rows="6" cols="50" [(ngModel)]="newQuotes.description" name="description" #description="ngModel" required></textarea>
 
-                <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+                <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
                     <p> Quote is required</p>
 
                 </div>

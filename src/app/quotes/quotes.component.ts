@@ -8,9 +8,9 @@ import {Quotes} from '../quotes'
 export class QuotesComponent implements OnInit {
 
   quotes =[
-    new Quotes (1, "Everyday is a brand new day", "Victor",new Date(2019,0,14)),
-    new Quotes (2, "Which day", "Chege",new Date(2019,0,14)),
-    new Quotes (3, "Today", "Dami",new Date(2019,0,14)),
+    // new Quotes (1, "Everyday is a brand new day", "Victor",new Date(2019,0,14)),
+    // new Quotes (2, "Which day", "Chege",new Date(2019,0,14)),
+    // new Quotes (3, "Today", "Dami",new Date(2019,0,14)),
   ]
   deleteQuotes(isComplete,index){
        if (isComplete){
