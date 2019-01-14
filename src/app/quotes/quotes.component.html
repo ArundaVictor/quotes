@@ -51,10 +51,10 @@
     <div *ngFor='let quote of quotes;let i = index'>
 
 
-      <li>{{quote.name}}</li>
-      <button class="btn btn-primary btn-sm" (click)='toogleDetails(i)'>Toogle Details</button>
+      <li appHighlight>{{quote.name}} (posted on {{quote.postDate|date}})</li>
+      <button class="btn btn-primary btn-xs" (click)='toogleDetails(i)'>Toogle Details</button>
       <br>
-     <app-quotes-details *ngIf="quote.showDescription" [quotes]='quote'></app-quotes-details>
+     <app-quotes-details *ngIf="quote.showDescription" [quotes]='quote' (isComplete)= 'completeQuotes($event,i)'></app-quotes-details>
      </div>
   </ul>
     <app-quote-form></app-quote-form>
