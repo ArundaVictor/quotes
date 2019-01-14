@@ -43,5 +43,14 @@
     </div>
 </div> -->
 <body>
-  <app-quote-form></app-quote-form>
+  <div class="container">
+    <h1>Quotes</h1>
+    <p>Welcome to the quote website where you can post a quote and also vote on other people's quotes!</p>
+    <ul>
+    <li *ngFor='let quote of quotes'>{{quote.name}}</li>
+     <app-quotes-details [quotes]='quote'></app-quotes-details>
+  </ul>
+    <app-quote-form></app-quote-form>
+  </div>
+
 </body>
