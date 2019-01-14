@@ -12,11 +12,23 @@ export class QuotesComponent implements OnInit {
     new Quotes (2, "Which day", "Chege",new Date(2019,0,14)),
     new Quotes (3, "Today", "Dami",new Date(2019,0,14)),
   ]
-  completeQuotes(isComplete,index){
+  deleteQuotes(isComplete,index){
        if (isComplete){
-           this.quotes.splice(index,1);
+           let toDelete=confirm(`Are you sure you want to delete ${this.quotes[index].name}`)
+
+           if(toDelete){
+               this.quotes.splice(index,1)
            }
-           }
+       }
+   }
+
+   addNewQuotes(quote){
+        let quoteLength = this.quotes.length;
+        quote.id=quoteLength+1;
+        quote.postDate = new Date(quote.postDate)
+        this.quotes.push(quote)
+
+    }
 
   toogleDetails(index){
         this.quotes[index].showDescription = !this.quotes[index].showDescription;

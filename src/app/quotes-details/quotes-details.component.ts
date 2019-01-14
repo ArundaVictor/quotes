@@ -8,9 +8,9 @@ import { Quotes} from "../quotes"
 export class QuotesDetailsComponent implements OnInit {
   @Input() quotes:Quotes;
     @Output() isComplete= new EventEmitter<boolean>();
-    quoteComplete(complete:boolean){
-   this.isComplete.emit(complete);
- }
+    quoteDelete(complete:boolean){
+      this.isComplete.emit(complete);
+    }
   constructor() { }
 
   ngOnInit() {
