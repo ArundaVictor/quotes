@@ -17,7 +17,7 @@ This is a website where users can post their quotes and also view other people's
 |When it receives:               | It should return:                  |
 | User posts quote entered              | The quote is displayed                  |
 | User up votes or down votes              | The vote is recorded on the quote                  |
-| User deletes a quote              | The quote is deleted                  |
+| User deletes a quote(s)              | The quote is deleted                  |
 
 ## Known Bugs
 There are no known bugs as at now but in case of any you may find please contact me.
