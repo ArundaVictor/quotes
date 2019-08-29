@@ -6,6 +6,7 @@
 ## Description
 This is a website where users can post their quotes and also view other people's quotes. The user can up vote on a vote they like and can also down vote on a quote they do not like. They can add their details to the quote they post and can also see other details on the quotes posted by other people.If a user does not like a particular vote they can also delete the said vote.
 
+
 ## Setup/Installation Requirements
 * Ensure you have a web browser
 * Clink on the website link provided
