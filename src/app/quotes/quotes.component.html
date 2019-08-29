@@ -58,6 +58,7 @@
      <app-quotes-details *ngIf="quote.showDescription" [quotes]='quote' (isComplete)= 'deleteQuotes($event,i)'></app-quotes-details>
      </div>
      <div class="row">
+       
         <app-quote-form (addQuotes)="addNewQuotes($event)" ></app-quote-form>
     </div>
   </ul>
