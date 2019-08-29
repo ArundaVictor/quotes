@@ -11,6 +11,7 @@ This is a website where users can post their quotes and also view other people's
 * Clink on the website link provided
 * Internet connection is required
 
+
 ## Behaviour driven Development (BDD)
 |#User inputs   |  #Example outputs |         
 |---------------|-------------------|
