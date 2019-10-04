@@ -42,14 +42,22 @@
         </form>
     </div>
 </div> -->
+
+
 <body>
   <div class="container">
+
     <h1>Quotes</h1>
     <p>Welcome to the quote website where you can post a quote and also vote on other people's quotes!</p>
+    
+    
     <ul>
 
 
     <div *ngFor='let quote of quotes;let i = index'>
+
+
+      
 
 
       <li appHighlight >{{quote.name}} (posted on {{quote.postDate|date}})</li>
