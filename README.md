@@ -1,5 +1,5 @@
 # Quotes
-####This is a web application where users can post their quotes and vote on other quotes.
+##This is a web application where users can post their quotes and vote on other quotes.
 
 #### By **Arunda Victor Oyugi**
 
